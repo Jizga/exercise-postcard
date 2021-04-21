@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background: black;
+}
+
+.postcard{
+    background: white;
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 1rem;
+}
+
+.postcard-header {
+    display: flex;
+}
+
+.postcard-header img {
+    width: 60px;
+    height: 60px;
+}
+
+.postcard-header h1 {
+    margin-right: 8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.postcard-body {
+    display: flex;
+}
+
+.postcard-body .right-body input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: thin;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.postcard-footer {
+    position: relative;
+}
+
+.postcard-footer button {
+    background: silver;
+    border: none;
+    padding: .2rem .3rem .5rem .3rem;
+    position: absolute;
+    margin-top: .5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
